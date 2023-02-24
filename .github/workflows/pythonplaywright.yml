@@ -27,3 +27,12 @@ jobs:
          - name: Run tests
            run: pytest
            
+         - name: Deploy 🚀
+           if: always()
+           uses: JamesIves/github-pages-deploy-action@4.1.5
+           with:
+             branch: gh-pages
+             folder: reports
+           env:
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           
