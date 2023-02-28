@@ -1,6 +1,6 @@
 # AutomationExercisesTest 
 ***
-Playwright+pytest automation 26 automation tests on site https://www.automationexercise.com/test_cases
+Playwright+pytest automation 13 automation tests on site https://www.automationexercise.com/test_cases
 
 ## 💻 Topics
 
