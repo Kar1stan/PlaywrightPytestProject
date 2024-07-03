@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 8040
 
 # Run the application.
-CMD ["Url=PROD_UR","npm","run","testchrome"]
+CMD ["pytest"]
