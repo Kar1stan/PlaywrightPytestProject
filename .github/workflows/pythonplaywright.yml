@@ -19,7 +19,7 @@ jobs:
 
          - name: Build dockerfile and run dockerfile
            run: |
-            docker build . -t cypress-docker-app:v1
+            docker build . -t pytest-docker-app:v1
             docker run -d -p 8001:8040 pytest-docker-app:v1
 
          - name: Set up QEMU
@@ -38,7 +38,7 @@ jobs:
            uses: docker/build-push-action@v6
            with:
              push: true
-             tags: ${{ secrets.DOCKERHUB_USERNAME }}/cypress-pytest-app:v1
+             tags: ${{ secrets.DOCKERHUB_USERNAME }}/pytest-docker-app:v1
          
          - name: Set up Python 3.11
            uses: actions/setup-python@3
