@@ -6,7 +6,7 @@ FROM node:${NODE_VERSION}
 WORKDIR /dockerimage
 
 #Install all dependencies
-COPY package.json ./
+COPY Pipfile ./
 
 #Run mpm install
 RUN npm install 
