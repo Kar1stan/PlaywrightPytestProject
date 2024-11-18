@@ -9,8 +9,6 @@ Integrated with:
 - [x] https://playwright.dev/python/docs/test-runners
 - [x] https://docs.qameta.io/allure/
 
-(+ bundlers: https://github.com/badeball/cypress-cucumber-preprocessor/tree/master/examples)
-
 ## 💻 Pre-requisites
 
 Before you use this project you only need to have PyCharm Community Edition installed in your computer.
