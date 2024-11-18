@@ -9,7 +9,7 @@ WORKDIR /dockerimage
 COPY Pipfile ./
 
 #Run mpm install
-RUN npm install 
+RUN pipenv install 
 
 #Bundle app source
 COPY . .
