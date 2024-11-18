@@ -22,7 +22,7 @@ This will clone the project, install NPM packages and also the Cypres.io which i
 ```
 $ git clone https://github.com/Kar1stan/PlaywrightPythonAutomationExercisesTest.git
 $ cd PlaywrightPythonAutomationExercisesTest
-$ npm install
+$ pip install
 ```
 
 ## 🚀 Run the project: 
