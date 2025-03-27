@@ -7,3 +7,4 @@ def take_screenshot(page, name):
         name=name,
         attachment_type=allure.attachment_type.PNG
     )
+
